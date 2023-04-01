@@ -20,6 +20,6 @@ a {
 }
 
 @font-face {
-  font-family: 'burtons';
-  src: local('../public/Burtons.otf');
+  font-family: "burtons";
+  src: local("../public/Burtons.otf");
 }

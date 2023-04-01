@@ -1,5 +1,9 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
+import { 
+  AiFillTwitterCircle, 
+  AiFillLinkedin 
+} from 'react-icons/ai'
 
 
 export default function Home() {
@@ -12,9 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className='h-screen px-5'>
+        <section className='px-5'>
           <nav className='py-10 flex justify-between'>
-            <h1 className='text-xl font-burtons'>Jamie Catto</h1>
+            <h1 className='text-xl font-sans'>JMT Codes</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
@@ -26,6 +30,26 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <div className='text-center p-10'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium'>
+              Jamie Catto</h2>
+            <h3 className='text-xl py-3'>Full Stack Developer</h3>
+            <p className='text-base leading-6 text-gray-800'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus diam non.</p>
+          </div>
+          <div className='text-5xl text-gray-500 flex justify-center gap-6'>
+            <a target='_blank' href='http://twitter.com/CodesJmt'>
+              <AiFillTwitterCircle /></a>
+            <a><AiFillLinkedin /></a>
+          </div>
+        </section>
+
+        <section className='my-8'>
+          <div>
+            <h3 className='text-xl text-center p-1'>My Skills</h3>
+            <p className='text-base text-center p-5 md:px-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci sagittis eu 
+              volutpat odio facilisis mauris. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Ultrices in iaculis nunc 
+              sed augue lacus. Aenean sed adipiscing diam donec adipiscing tristique risus.</p>
+          </div>
         </section>
       </main>
     </>
