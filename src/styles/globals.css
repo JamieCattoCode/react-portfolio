@@ -1,3 +1,6 @@
+@import 
+  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,9 +20,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@font-face {
-  font-family: "burtons";
-  src: local("../public/Burtons.otf");
 }

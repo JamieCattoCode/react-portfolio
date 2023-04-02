@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: 'burtons'
+        bebas: ['Bebas Neue', 'cursive']
       }
     },
   },

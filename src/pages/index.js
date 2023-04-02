@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { 
   AiFillTwitterCircle, 
   AiFillLinkedin 
 } from 'react-icons/ai'
+import Image from 'next/image'
+import Navbar from '@/components/Navbar'
 
 
 export default function Home() {
@@ -17,29 +18,21 @@ export default function Home() {
       </Head>
       <main>
         <section className='px-5'>
-          <nav className='py-10 flex justify-between'>
-            <h1 className='text-xl font-sans'>JMT Codes</h1>
-            <ul className='flex items-center'>
-              <li>
-                <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
-              </li>
-              <li>
-                <a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>
-                My CV
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <Navbar />
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>
               Jamie Catto</h2>
             <h3 className='text-xl py-3'>Full Stack Developer</h3>
             <p className='text-base leading-6 text-gray-800'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus diam non.</p>
           </div>
-          <div className='text-5xl text-gray-500 flex justify-center gap-6'>
+          <div className='text-5xl text-gray-500 flex justify-center gap-6 my-8'>
             <a target='_blank' href='http://twitter.com/CodesJmt'>
               <AiFillTwitterCircle /></a>
             <a><AiFillLinkedin /></a>
+          </div>
+          <div className='flex justify-center p-10'>
+            <Image src="/../public/profile-pic.jpg" width={200} height={200}
+            className='rounded-full' />
           </div>
         </section>
 
