@@ -1,0 +1,60 @@
+{
+    "cards":
+        [
+            {
+                "title": "Database Design",
+                "description": "From a mere idea, I will design the logic and structure of the database that you need to store your data securely.",
+                "technologies": [
+                    {
+                        "name": "postgreSQL",
+                        "icon": ""
+                    },
+                    {
+                        "name": "pgAdmin4",
+                        "icon": ""
+                    },
+                    {
+                        "name": "MongoDB",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Docker",
+                        "icon": ""
+                    }
+                ]
+            },
+            {
+                "title": "REST APIs",
+                "description": "I create REST APIs which you can integrate into your apps to smoothly send and receive information to/from a server.",
+                "technologies": [
+                    {
+                        "name": "Express.js",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Sequelize ORM",
+                        "icon": ""
+                    }
+                ]
+            },
+            {
+                "title": "Client-Side Web Apps",
+                "description": "I build aesthetic, fast, and highly functional web apps - from top to bottom.",
+                "technologies": [
+                    {
+                        "name": "HTML 5",
+                        "icon": ""
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "icon": ""
+                    },
+                    {
+                        "name": "React",
+                        "icon": ""
+                    }
+                ]
+            }
+        ]
+        
+}
