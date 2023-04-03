@@ -1,7 +1,20 @@
-const SkillCard = ({ cardData }) => {
+import Image from "next/image"
+import nodeIcon from '../../public/icons/node_js_icon.svg'
+import postgreIcon from '../../public/icons/postgresql_icon.svg'
+import reactIcon from '../../public/icons/react_icon.svg'
+
+const SkillCard = ({ cardData, count }) => {
     const { title, description, technologies } = cardData
+    const icons = [postgreIcon, nodeIcon, reactIcon]
     return (
         <div className="max-w-800 text-center shadow-lg px-10 py-4 rounded-xl my-10  dark:dark:bg-white dark:shadow-gray-300 flex-1">
+            <div className="flex justify-center p-4">
+                <Image 
+                src={icons[count]}
+                alt={`${count} icon`}
+                width={80} />
+            </div>
+
             <h3 className="text-lg font-medium pt-8 pb-2">{title}</h3>
             <p className="py-2">{description}</p>
             <h4 className="py-4 text-teal-600">Technologies I use</h4>

@@ -7,7 +7,7 @@
                 "technologies": [
                     {
                         "name": "postgreSQL",
-                        "icon": ""
+                        "icon": "postgresql_icon.svg"
                     },
                     {
                         "name": "pgAdmin4",
@@ -29,7 +29,7 @@
                 "technologies": [
                     {
                         "name": "NodeJS",
-                        "icon": ""
+                        "icon": "node_js_icon.svg"
                     },
                     {
                         "name": "Express.js",
@@ -46,15 +46,15 @@
                 "description": "I build aesthetic, fast, and highly functional web apps - from top to bottom. I can also securely authenticate users from either the front or back end.",
                 "technologies": [
                     {
+                        "name": "React",
+                        "icon": "react_icon.svg"
+                    },
+                    {
                         "name": "HTML 5",
                         "icon": ""
                     },
                     {
                         "name": "Tailwind CSS",
-                        "icon": ""
-                    },
-                    {
-                        "name": "React",
                         "icon": ""
                     }
                 ]

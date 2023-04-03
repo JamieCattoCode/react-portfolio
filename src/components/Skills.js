@@ -15,10 +15,11 @@ const Skills = () => {
                 </p>
             </div>
             <div className='lg:flex flex-wrap gap-10 lg:p-10'>
-                {cards.map(card => {
+                {cards.map((card, count)=> {
                     return <SkillCard 
                     cardData={card}
-                    key={card.title}/>
+                    key={card.title}
+                    count={count} />
                 })}
             </div>
         </div>
