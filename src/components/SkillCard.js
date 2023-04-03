@@ -7,7 +7,13 @@ const SkillCard = ({ cardData }) => {
             <h4 className="py-4 text-teal-600">Technologies I use</h4>
             <ul className="list-none">
                 {technologies.map(technology => {
-                    return <li className="text-gray-800 py-1">{technology.name}</li>
+                    return (
+                    <li 
+                    className="text-gray-800 py-1"
+                    key={technology.name}>
+                        {technology.name}
+                    </li>
+                    )
                 })}
             </ul>
         </div>

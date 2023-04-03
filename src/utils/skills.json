@@ -28,6 +28,10 @@
                 "description": "I create REST APIs which you can integrate into your apps to smoothly send and receive information to/from a server.",
                 "technologies": [
                     {
+                        "name": "NodeJS",
+                        "icon": ""
+                    },
+                    {
                         "name": "Express.js",
                         "icon": ""
                     },

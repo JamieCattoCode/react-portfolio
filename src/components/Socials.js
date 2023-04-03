@@ -1,6 +1,7 @@
 import { 
     AiFillTwitterCircle, 
-    AiFillLinkedin 
+    AiFillLinkedin,
+    AiFillGithub 
   } from 'react-icons/ai'
 
 const Socials = () => {
@@ -11,6 +12,9 @@ const Socials = () => {
             </a>
             <a target='_blank' href='https://www.linkedin.com/in/jamie-catto-6876421b8/'>
               <AiFillLinkedin />
+            </a>
+            <a target='_blank' href='https://github.com/JamieCattoCode'>
+              <AiFillGithub />
             </a>
         </div>
     )
