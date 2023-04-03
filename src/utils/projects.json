@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "title": "Travel Bucket List",
+            "imageName": "travel-bucket-list.jpg",
+            "description": "A web app to help you get the most out of your holidays - type in a place name to find lesser-known things to do and places to see.",
+            "githubLink": "https://github.com/JoshBamford09/travel-bucket-list"
+        },
+        {
+            "title": "NASA Image Search",
+            "imageName": "nasa-image-search.png",
+            "description":  "Search NASA's image database by typing any keyword into the search bar.",
+            "githubLink": "https://github.com/JamieCattoCode/tech-test"
+        }
+    ]
+}

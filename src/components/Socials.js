@@ -6,7 +6,7 @@ import {
 
 const Socials = () => {
     return (
-        <div className='text-5xl text-gray-500 flex justify-center gap-6 my-8'>
+        <div className='text-5xl text-gray-500 flex justify-center gap-6 mb-10'>
             <a target='_blank' href='http://twitter.com/CodesJmt'>
               <AiFillTwitterCircle />
             </a>
