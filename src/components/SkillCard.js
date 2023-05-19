@@ -1,7 +1,7 @@
 import Image from "next/image"
 import nodeIcon from '../assets/icons/node_js_icon.svg'
 import postgreIcon from '../assets/icons/postgresql_icon.svg'
-import reactIcon from '.../assets/icons/react_icon.svg'
+import reactIcon from '../assets/icons/react_icon.svg'
 
 const SkillCard = ({ cardData, count }) => {
     const { title, description, technologies } = cardData
