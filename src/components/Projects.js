@@ -8,10 +8,11 @@ const Projects = () => {
         <div className='my-10'>
             <h3 className='text-xl font-medium text-center p-1 lg:text-3xl lg:mb-5 dark:text-teal-600'>My Projects</h3>
             <div className='lg:flex flex-wrap gap-10 lg:p-10 m-8'>
-                {projects.map(project => (
+                {projects.map((project, i) => (
                     <ProjectCard
                     projectData={project}
-                    key={project.title} />
+                    key={project.title}
+                    count={i} />
                 ))}
             </div>
         </div>
