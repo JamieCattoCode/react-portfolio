@@ -1,4 +1,5 @@
 import { BsFillMoonStarsFill } from 'react-icons/bs'
+import cv from '../assets/jamie-catto-cv.pdf';
 
 const Navbar = ({ darkMode, setDarkMode }) => {
     return (
@@ -9,7 +10,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-slate-400' />
               </li>
               <li>
-                <a href='/src/assets/jamie-catto-cv.pdf' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>
+                <a href={cv} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>
                 My CV
                 </a>
               </li>
